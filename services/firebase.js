@@ -1,5 +1,5 @@
 
-const firebase = require('firebase/compact/app');
+const firebase = require('firebase/app');
 
 const firebaseConfig = {
     apiKey: process.env.FIREBASE_APIKEY,
