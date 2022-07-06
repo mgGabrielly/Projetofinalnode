@@ -9,7 +9,7 @@ const express = require('express');
 // Criar aplicação WEB express
 const app = express();
 // Rotas (End Points)
-app.get('/', (req, res) => {
+app.get('/login', (req, res) => {
   // console.log('Rota / foi chamada.');
   res.render('login');
 });
